@@ -1,6 +1,7 @@
 #all commands start with 'git'
 init
 status
+staus -s
 diff filename
 clone
 commit -m "message in presence tense"
