@@ -1,3 +1,6 @@
-git init
-git status
-git diff filename
+#all commands start with 'git'
+init
+status
+diff filename
+clone
+commit -m "message in presence tense"
