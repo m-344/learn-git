@@ -5,3 +5,4 @@ staus -s
 diff filename
 clone
 commit -m "message in presence tense"
+git config -l (check usernae, email adress)
