@@ -1,8 +1,20 @@
 #all commands start with 'git'
 init
+add * [stage all files] add . [current file]
 status
 staus -s
 diff filename
 clone
 commit -m "message in presence tense"
 git config -l (check usernae, email adress)
+{
+cat filenName.extension  [GitBash] OR
+C:\Users\sapov>type .\.gitconfig (on the cmd)
+
+(see the file in the comandline)
+}
+
+
+
+GItBash [same commands as Linux]
+ll
