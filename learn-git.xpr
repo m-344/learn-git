@@ -6,5 +6,6 @@
     </meta>
     <projectTree name="learn-git.xpr">
         <folder path="."/>
+        <file name="file:/L:/Programmieren/cmd/cmd_notes.txt"/>
     </projectTree>
 </project>

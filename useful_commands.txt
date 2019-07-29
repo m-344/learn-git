@@ -9,7 +9,8 @@ diff --staged [changes made but not yet commited]
 q 	[quit git diff]
 clone
 commit -m "message in presence tense"
-commit -v [opens in the editor with additional info about the commit]
+commit -v [opens in the editor with additional info about the commit]	
+commit -a [commit all changes]
 git config -l (check usernae, email adress)
 {
 cat filenName.extension  [GitBash] OR
