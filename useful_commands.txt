@@ -1,11 +1,15 @@
 #all commands start with 'git'
+--version
 init
-add * [stage all files] add . [current file]
+add * [stage all files] 'add .' [stage the current file]
 status
 staus -s
 diff filename
+diff --staged [changes made but not yet commited]
+q 	[quit git diff]
 clone
 commit -m "message in presence tense"
+commit -v [opens in the editor with additional info about the commit]
 git config -l (check usernae, email adress)
 {
 cat filenName.extension  [GitBash] OR
@@ -17,6 +21,43 @@ C:\Users\sapov>type .\.gitconfig (on the cmd)
 
 
 GItBash [same commands as Linux]
+NAVIGATE FILE SYSTEM
 ll
 cd /l/Programmieren/cmd
+ls [content of the folder]
+pwd [full path of the current folder]
+
 {In order to navigate to a different drive/directory you can do it in convenient way (instead of typing cd /e/Study/Codes), just type in cd[Space], and drag-and-drop your directory Codes with your mouse to git bash, hit [Enter].}
+
+CREATE/DELETE
+mkdir folderName
+mv fileName folderName/   [move file to a folder]
+mv folder/file . [move file from subdirectory to the current folder '.']
+cp fileName copiedFileName
+rm fileName
+rm -r folderPath/ [use the flag '-r' to remove a directory]
+
+VI
+Command MODE
+vi newFileName [create new file]
+i [switch to INSERT mode from COMMAND mode]
+x 	[del character]
+dd 	[del line]
+:w write file
+:q quite VI
+:wq write file and quite
+
+Insert mode
+ESC [switch to COMMAND mode from INSERT mode]
+
+
+
+
+
+CONTENT
+cat test.txt [see the content]
+
+help help commandName
+
+TERMINAL
+Arrows up/down [commands 	history]
