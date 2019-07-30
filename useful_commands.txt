@@ -1,24 +1,21 @@
 #all commands start with 'git'
 --version
-init
-add * [stage all files] 'add .' [stage the current file]
-status
-staus -s
+add 
+	* [stage all files] 
+	. [stage the current file]
+staus 
+	-s
 diff filename
-diff --staged [changes made but not yet commited]
+	--staged [changes made but not yet commited]
 q 	[quit git diff]
-clone
-commit -m "message in presence tense"
-commit -v [opens in the editor with additional info about the commit]	
-commit -a [commit all changes]
-git config -l (check usernae, email adress)
-{
-cat filenName.extension  [GitBash] OR
-C:\Users\sapov>type .\.gitconfig (on the cmd)
-
-(see the file in the comandline)
-}
-
+commit 	-m "message in presence tense"
+	-v [opens in the editor with additional info about the commit]	
+	-a [commit all changes]
+	--amend [change the previous commit]
+revert [ID of the commit]
+config -l (check usernae, email adress)
+cat filenName.extension [(read a file on the terminal] [GitBash] OR
+	C:\Users\sapov>type .\.gitconfig [cmd]
 
 
 GItBash [same commands as Linux]
