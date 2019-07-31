@@ -16,6 +16,13 @@ revert [ID of the commit]
 config -l (check usernae, email adress)
 cat filenName.extension [(read a file on the terminal] [GitBash] OR
 	C:\Users\sapov>type .\.gitconfig [cmd]
+branch branchName	[create a new branch]
+branch 			[check on which branch I'm working on]
+	-d brunchName 	[delete the branch]
+checkout branchName 	[switch to another branch]
+merge braunchName
+
+
 
 
 GItBash [same commands as Linux]
