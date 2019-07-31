@@ -3,8 +3,7 @@
 add 
 	* [stage all files] 
 	. [stage the current file]
-staus 
-	-s
+staus -s	[-s stand for short]
 diff filename
 	--staged [changes made but not yet commited]
 q 	[quit git diff]
@@ -21,6 +20,8 @@ branch 			[check on which branch I'm working on]
 	-d brunchName 	[delete the branch]
 checkout branchName 	[switch to another branch]
 merge braunchName
+remote -v show		[show remote repositorie]
+reset --soft HEAD~{number of commits}	[squashes the commits ~ merges them into one]
 
 
 
