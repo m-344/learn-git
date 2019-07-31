@@ -24,6 +24,9 @@ merge braunchName
 
 
 
+tag "tagValue"
+	-a [annotated] -m "message"
+show "tagValue"
 
 GItBash [same commands as Linux]
 NAVIGATE FILE SYSTEM
