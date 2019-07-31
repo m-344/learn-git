@@ -16,7 +16,9 @@ revert [ID of the commit]
 config -l (check usernae, email adress)
 cat filenName.extension [(read a file on the terminal] [GitBash] OR
 	C:\Users\sapov>type .\.gitconfig [cmd]
-
+tag "tagValue"
+	-a [annotated] -m "message"
+show "tagValue"
 
 GItBash [same commands as Linux]
 NAVIGATE FILE SYSTEM
