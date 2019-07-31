@@ -2,4 +2,5 @@ This is my test vi file.
 Second line.
 Third.
 
-Fifth.
+Fifth
+
