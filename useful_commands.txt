@@ -32,8 +32,10 @@ mkdir folderName
 mv fileName folderName/   [move file to a folder]
 mv folder/file . [move file from subdirectory to the current folder '.']
 cp fileName copiedFileName
+	-r "folder/path/to/copy"	"folder/destination/path"
 rm fileName
-rm -r folderPath/ [use the flag '-r' to remove a directory]
+	-r folderPath/
+
 
 VI
 Command MODE
