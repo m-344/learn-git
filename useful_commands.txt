@@ -29,6 +29,7 @@ branch branchName	[create a new branch]
 branch 			[check on which branch I'm working on]
 	-d brunchName 	[delete the branch]
 checkout branchName 	[switch to another branch]
+git checkout master -- fileName	[will overwrite with the version of the last commit]
 merge braunchName
 remote -v show		[show remote repositorie]
 reset --soft HEAD~{number of commits}	[squashes the commits ~ merges them intoe]
