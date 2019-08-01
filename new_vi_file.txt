@@ -1,5 +1,0 @@
-This is my test vi file.
-Third.
-Fourth
-Fifth
-
