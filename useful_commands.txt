@@ -20,7 +20,7 @@ next step: copy the key from where it is stored and paste it to github
 commandName --help
 
 
-
+https://help.github.com/en/articles/configuring-a-remote-for-a-fork
 
 
 cat filenName.extension [(read a file on the terminal] [GitBash] OR
