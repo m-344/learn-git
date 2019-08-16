@@ -23,6 +23,7 @@ commandName --help
 https://help.github.com/en/articles/configuring-a-remote-for-a-fork
 
 
+
 cat filenName.extension [(read a file on the terminal] [GitBash] OR
 	C:\Users\sapov>type .\.gitconfig [cmd]
 branch branchName	[create a new branch]
