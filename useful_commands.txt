@@ -1,8 +1,5 @@
 #all commands start with 'git'
 --version
-add 
-	* [stage all files] 
-	. [stage the current file]
 staus -s	[-s stand for short]
 diff filename
 	--staged [changes made but not yet commited]
@@ -11,6 +8,7 @@ commit 	-m "message in presence tense"
 	-v [opens in the editor with additional info about the commit]	
 	-a [commit all changes]
 	--amend [change the previous commit]
+push origin master	
 revert [ID of the commit]
 config 		[check configuration for a particular parameter]
 	-l 	[list all configuration parameters]
@@ -33,7 +31,7 @@ checkout branchName 	[switch to another branch]
 git checkout master -- fileName	[will overwrite with the version of the last commit]
 merge braunchName
 remote -v show		[show remote repositorie]
-reset --soft HEAD~{number of commits}	[squashes the commits ~ merges them intoe]
+reset --soft HEAD~{number of commits}	[squashes the commits ~ merges them int ome]
 
 
 
@@ -70,8 +68,6 @@ dd 	[del line]
 :q quite VI
 :wq write file and quite
 
-Insert mode
-ESC [switch to COMMAND mode from INSERT mode]
 
 
 
@@ -81,6 +77,17 @@ CONTENT
 cat test.txt [see the content]
 
 help help commandName
+
+
+ARCHIVE
+
+
+VIM INSERT MODE
+ESC [switch to COMMAND mode from INSERT mode]
+
+add 
+	* [stage all files] 
+	. [stage the current file]
 
 TERMINAL
 Arrows up/down [commands 	history]
