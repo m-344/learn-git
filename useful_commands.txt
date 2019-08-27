@@ -27,8 +27,10 @@ cat filenName.extension [(read a file on the terminal] [GitBash] OR
 branch branchName	[create a new branch]
 branch 			[check on which branch I'm working on]
 	-d brunchName 	[delete the branch]
-checkout branchName 	[switch to another branch]
-git checkout master -- fileName	[will overwrite with the version of the last commit]
+checkout
+	branchName 	[switch to another branch]
+	master -- fileName	[will overwrite with the version of the last commit]
+	-- .		[load all files from the repo, overwrites modified files]	
 merge braunchName
 remote -v show		[show remote repositorie]
 reset --soft HEAD~{number of commits}	[squashes the commits ~ merges them int ome]
@@ -88,6 +90,7 @@ ESC [switch to COMMAND mode from INSERT mode]
 add 
 	* [stage all files] 
 	. [stage the current file]
+	-A [all changes]
 
 TERMINAL
 Arrows up/down [commands 	history]
