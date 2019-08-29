@@ -12,7 +12,7 @@ push origin master
 revert [ID of the commit]
 config 		[check configuration for a particular parameter]
 	-l 	[list all configuration parameters]
-git config --local core.editor vim	[choose between --local or --global parameters]
+	--local core.editor vim	[choose between --local or --global parameters]
 ssh-keygen -t rsa -C "le.chat454@gmail.com" [generates an ssh key]
 next step: copy the key from where it is stored and paste it to github
 commandName --help
@@ -30,9 +30,13 @@ branch 			[check on which branch I'm working on]
 checkout
 	branchName 	[switch to another branch]
 	master -- fileName	[will overwrite with the version of the last commit]
-	-- .		[load all files from the repo, overwrites modified files]	
+	-- .		[load all files from the repo, overwrites modified files]
+	-- fileName	[load particular file]
 merge braunchName
-remote -v show		[show remote repositorie]
+remote
+	-v show		[show remote repositorie]
+	set-url origin https://...	[change the remote]
+
 reset --soft HEAD~{number of commits}	[squashes the commits ~ merges them int ome]
 
 
@@ -52,6 +56,7 @@ pwd [full path of the current folder]
 
 CREATE/DELETE
 mkdir folderName
+touch "fileName"	[no git command]
 mv fileName folderName/   [move file to a folder]
 mv folder/file . [move file from subdirectory to the current folder '.']
 cp fileName copiedFileName
