@@ -1,4 +1,5 @@
 #all commands start with 'git'
+init --bare	[intialize a bare repo, used as remote]
 --version
 staus -s	[-s stand for short]
 diff filename
@@ -35,7 +36,8 @@ checkout
 merge braunchName
 remote
 	-v show		[show remote repositorie]
-	set-url origin https://...	[change the remote]
+	add origin	[set up origin for the first time]
+	set-url origin https://...	[CHANGE the remote]
 
 reset --soft HEAD~{number of commits}	[squashes the commits ~ merges them int ome]
 
@@ -56,7 +58,7 @@ pwd [full path of the current folder]
 
 CREATE/DELETE
 mkdir folderName
-touch "fileName"	[no git command]
+touch "fileName"	[creates a file not a git command]
 mv fileName folderName/   [move file to a folder]
 mv folder/file . [move file from subdirectory to the current folder '.']
 cp fileName copiedFileName
