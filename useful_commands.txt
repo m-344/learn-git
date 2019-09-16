@@ -54,7 +54,6 @@ cd /l/Programmieren/cmd
 ls [content of the folder]
 pwd [full path of the current folder]
 
-{In order to navigate to a different drive/directory you can do it in convenient way (instead of typing cd /e/Study/Codes), just type in cd[Space], and drag-and-drop your directory Codes with your mouse to git bash, hit [Enter].}
 
 CREATE/DELETE
 mkdir folderName
@@ -100,4 +99,7 @@ add
 	-A [all changes]
 
 TERMINAL
-Arrows up/down [commands 	history]
+
+
+NOTES:
+attlssian bitbucket remote rpository services
