@@ -103,3 +103,10 @@ TERMINAL
 
 NOTES:
 attlssian bitbucket remote rpository services
+
+
+_______
+git config --local user.name "m-344"
+git config --local user.email "le.chat454@gmail.com"
+
+
